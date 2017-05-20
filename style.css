@@ -65,15 +65,16 @@ body{
   left: 50%;
   bottom: 0.5rem;
   transform: translateX(-50%);
-  z-index: 0;    
+  z-index: 0;
 }
 #mavoHeader{
   z-index: 3; 
   background-color: teal;
   opacity: 1;
   height: 2rem;  
-  top: 0;
+  top: 5rem;
   cursor: pointer;
+  border: 1px solid white;
 }
 #mavoHeader:hover{
   opacity: 0.85;

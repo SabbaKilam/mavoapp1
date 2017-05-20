@@ -27,8 +27,14 @@
     <div id="holder">
       
       <div id="app">
-        <main mv-app="mavoTemplate" mv-storage="https://github.com/mavoapp1/music" class="banner">
-        <header id="mavoHeader" class="banner"></header>           
+        <main mv-app="mavoTemplate" mv-storage="https://github.com/SabbaKilam/mavoapp1/music" class="banner">
+        <header id="mavoHeader" class="banner"></header>
+        <div>
+          <a property="music" typeof="Music" mv-multiple mv-attribute="none">
+            <input type="file" property="file" />
+            <p property="name" mv-default="[readable(to(filename(file), '.'))]"></p>
+          </a>
+        </div>
             <div id="info">
               event info
             </div>           

@@ -1,0 +1,80 @@
+
+* {
+  box-sizing: border-box;
+}
+html{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  font-size: calc(calc(1vw + 1vh) + 8px);
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;  
+  font-family: helvetica, arial, sans-serif;
+  font-size: 2rem;
+}
+
+#holder{
+  position: fixed;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;  
+}
+
+#app{
+  position: relative;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top:0;
+  bottom:0;
+  box-shadow: 5px 5px 20px black;
+  border-radius: 0.5rem;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background-color: teal;
+}
+
+#info{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background: gray;
+  z-index: 1;
+}
+footer{
+  position: absolute;
+  width: 100%;
+  height: 1.5rem;
+  left: 50%;
+  bottom: 0.5rem;
+  transform: translateX(-50%);
+  z-index: 0;    
+}
+#mavoFooter{
+  z-index: 3; 
+  background-color: teal;
+  opacity: 1;
+  height: 2rem;  
+  bottom: 0;
+  cursor: pointer;  
+}
+#mavoFooter:hover{
+  opacity: 0.85;
+}

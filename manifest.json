@@ -1,0 +1,16 @@
+{
+  "short_name": "Mobile 1 Template",
+  "name": "Abbas' Mobile template",
+  "icons": [
+    {
+      "src": "https://cdn.glitch.com/1cfe4610-a16f-4890-bae4-875b1ba8b983%2Ffavicon192x192.png?1492048032743",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],  
+  "display" : "standalone",
+  "start_url": "index.html?launcher=true",
+  "theme_color": "teal",
+  "background_color" : "teal",
+  "orientation" : "portrait"
+}
